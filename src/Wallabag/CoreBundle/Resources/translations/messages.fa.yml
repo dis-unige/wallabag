@@ -59,6 +59,7 @@ config:
         user_info: 'اطلاعات کاربر'
         password: 'رمز'
         rules: 'برچسب‌گذاری خودکار'
+        # ignore_origin: 'Ignore origin rules'
         new_user: 'افزودن کاربر'
         # reset: 'Reset area'
     form:
@@ -614,6 +615,8 @@ flashes:
             # otp_enabled: Two-factor authentication enabled
             # tagging_rules_imported: Tagging rules imported
             # tagging_rules_not_imported: Error while importing tagging rules
+            # ignore_origin_rules_deleted: 'Ignore origin rule deleted'
+            # ignore_origin_rules_updated: 'Ignore origin rule updated'
     entry:
         notice:
             entry_already_saved: 'این مقاله در تاریخ %date% ذخیره شده بود'
